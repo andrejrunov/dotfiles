@@ -1,0 +1,16 @@
+[alias]
+	ci = commit
+	ca = !git ci --amend
+	can = !git ca --no-edit
+	st = status
+	di = diff
+	dc = diff --cached
+	l = log --graph --decorate
+	la = !git l --all
+	lf = !git l --first-parent
+	co = checkout
+	cp = cherry-pick
+[color]
+	ui = auto
+[init]
+	defaultBranch = main
