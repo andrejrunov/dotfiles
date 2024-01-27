@@ -10,6 +10,6 @@ mkdir -p $DOT_BIN
 # Git
 ln -fs "$DOT_FILES/.gitconfig" "$HOME/.gitconfig"
 
-# Zsh
-ln -fs "$DOT_FILES/.zshrc" "$HOME/.zshrc"
-ln -fs "$DOT_FILES/.zprofile" "$HOME/.zprofile"
+# Bash
+ln -fs "$DOT_FILES/.profile" "$HOME/.profile"
+ln -fs "$DOT_FILES/.bashrc" "$HOME/.bashrc"
